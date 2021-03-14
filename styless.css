@@ -1,0 +1,48 @@
+body{
+    background-image: url(blur.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    font-size: 30px;
+   
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .Aboveleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  a:link{
+      color: black;
+      font-size: 50px;
+      text-decoration: bisque;
+      transition: all, 0.3s linear;
+  }
+a{
+  scroll-behavior: smooth;
+}
+  a:hover{
+      color: rgb(212, 69, 93);
+  }
+ 
+  div{
+      display: flex;
+  }
+  form{
+    text-align: left;
+  }
+  span{
+    font-size: 50px;
+    color: rgb(24, 13, 51);
+    padding-top: 70px;
+    padding-left: 100px;
+  }
